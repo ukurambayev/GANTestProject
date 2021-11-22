@@ -1,0 +1,5 @@
+PageObject/BasePage.class
+PageObject/SignUpPage.class
+Tests/TestScenario.class
+Tests/BaseTest.class
+PageObject/MainPage.class

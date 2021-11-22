@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: Tests.TestScenario
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 23.387 s <<< FAILURE! - in Tests.TestScenario
+Tests.TestScenario.testAuthorization  Time elapsed: 23.381 s  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.55)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'Ulas-MacBook-Pro.local', ip: '2601:155:280:8c60:0:0:0:e4a3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed90a99c820748909020efa4d9378f4e, findElement {using=xpath, value=//a[@class='newUser green']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.55, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/pr/kzhqz6_d6hn...}, goog:chromeOptions: {debuggerAddress: localhost:51901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51901/devtoo..., se:cdpVersion: 96.0.4664.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed90a99c820748909020efa4d9378f4e
+	at Tests.TestScenario.testAuthorization(TestScenario.java:21)
+
